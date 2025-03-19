@@ -1,0 +1,42 @@
+.wpb-books-grid {
+    display: flex;
+    align-items: center;
+    margin: 0 -20px;
+}
+
+.wpb-book-item {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.wpb-popup-inner {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid;
+    padding: 40px;
+    border-radius: 20px;
+    background: #fff;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.wpb-popup-inner img {
+    height: 200px;
+    width: 200px !important;
+}
+
+.wpb-popup-inner:empty {
+    display: none;
+}
+
+.wpb-popup-inner button.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: unset;
+    font-size: 30px;
+}

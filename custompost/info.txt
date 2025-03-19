@@ -1,0 +1,8 @@
+/custompost
+--> /includes
+   --> create-page.php
+   --> display-posts.php
+   --> enqueue-scripts.php
+--> /assets
+   --> style.css
+--> custompost.php

@@ -1,0 +1,53 @@
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    margin: 5px;
+    padding: 8px 12px;
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.pagination .current {
+    font-weight: bold;
+    background: #0056b3;
+    margin: 5px;
+    padding: 8px 12px;
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-body h2 a {
+    color: #000;
+    text-decoration: unset;
+}
+
+.card img.card-img-top {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    .card img.card-img-top {
+        height: 230px;
+    }
+}

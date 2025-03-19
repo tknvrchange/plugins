@@ -1,0 +1,13 @@
+wp-book/
+--> wp-book.php (Main Plugin File)
+--> includes/
+   --> cpt-book.php (Registers Custom Post Type & Taxonomy)
+   --> book-meta-fields.php (Handles Custom Fields)
+      --> book-shortcode.php (Handles Shortcode & Display)
+      --> book-ajax.php (Handles AJAX for Popup)
+--> assets/
+   --> js/
+      --> book-popup.js (Handles JS for Popup)
+      --> book-meta-box.js (Handles JS for Meta Box)
+   --> css/
+      --> style.css (Styles for Grid & Popup)
